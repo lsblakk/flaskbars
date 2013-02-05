@@ -1,7 +1,7 @@
 import os
 import simplejson
 from flask import Flask, render_template, redirect, url_for, request, make_response
-from flaskext.sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
 

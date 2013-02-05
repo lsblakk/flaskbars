@@ -6,7 +6,7 @@ services:
 requirements:
   pypm:
     - Flask-Script==0.3.3
-    - Flask-SQLAlchemy==0.16
+    - flask-sqlalchemy==0.16
 hooks:
   post-staging: python manage.py createDbSchema
 processes:

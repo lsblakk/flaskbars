@@ -1,5 +1,5 @@
 Flask-Script==0.5.3
 Flask==0.9
-Flask-SQLAlchemy==0.16
+flask-sqlalchemy==0.16
 psycopg2
 simplejson
