@@ -1,7 +1,10 @@
-name: flaskbars
+name: flaskbars-lsblakk
 framework:
   type: buildpack
 services:
   flaskbars-db: postgresql
 hooks:
   pre-running: python manage.py createDbSchema
+requirements:
+  pip:
+    - Flask-Script
