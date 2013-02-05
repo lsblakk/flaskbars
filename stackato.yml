@@ -6,5 +6,5 @@ services:
 hooks:
   pre-running: python manage.py createDbSchema
 requirements:
-  pip:
-    - Flask-Script
+  pypm:
+    - Flask-Script=0.5.3
