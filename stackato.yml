@@ -5,3 +5,5 @@ services:
   flaskbars-db: postgresql
 hooks:
   post-staging: python manage.py createDbSchema
+processes:
+  web: python web.py
