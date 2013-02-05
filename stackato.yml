@@ -8,7 +8,7 @@ hooks:
 requirements:
   pypm:
     - Flask-Script=0.5.3
-	- Flask=0.9
-	- Flask-SQLAlchemy
-	- psycopg2
-	- simplejson
+    - Flask=0.9
+    - Flask-SQLAlchemy
+    - psycopg2
+    - simplejson
