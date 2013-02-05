@@ -4,4 +4,4 @@ runtime: python27
 services:
   flaskbars-db: postgresql
 hooks:
-  pre-running: python manage.py createDbSchema
+  post-staging: python manage.py createDbSchema
