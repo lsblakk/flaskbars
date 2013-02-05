@@ -3,6 +3,9 @@ framework: python
 runtime: python27
 services:
   flaskbars-db: postgresql
+requirements:
+  pypm:
+    - Flask-Script==0.5.3
 hooks:
   post-staging: python manage.py createDbSchema
 processes:
