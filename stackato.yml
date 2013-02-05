@@ -5,7 +5,7 @@ services:
   flaskbars-db: postgresql
 requirements:
   pypm:
-    - Flask-Script==0.5.3
+    - Flask-Script==0.3.3
 hooks:
   post-staging: python manage.py createDbSchema
 processes:
