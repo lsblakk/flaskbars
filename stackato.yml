@@ -5,6 +5,3 @@ services:
   flaskbars-db: postgresql
 hooks:
   pre-running: python manage.py createDbSchema
-requirements:
-  pypm:
-    - Flask-Script=0.5.3
